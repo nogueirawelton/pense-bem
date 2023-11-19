@@ -8,7 +8,7 @@ interface AppStore {
   currentQuestion: number;
 
   answers: Array<number> | null;
-  book: number | null;
+  book: string | null;
   program: string | null;
 
   isRecordModalOpen: boolean;
@@ -16,7 +16,7 @@ interface AppStore {
 
   setProgramData: (program: {
     id: string;
-    book: number;
+    book: string;
     answers: Array<number>;
   }) => void;
 

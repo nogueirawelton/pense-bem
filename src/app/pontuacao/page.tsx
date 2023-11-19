@@ -10,7 +10,7 @@ export default function Pontuacao() {
   const [scores, setScores] = useState<Array<{
     name: string;
     time: number;
-    book: number;
+    book: string;
     program: string;
     score: number;
   }> | null>(null);

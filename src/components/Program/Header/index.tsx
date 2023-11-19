@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 interface HeaderProps {
   program: {
     id: string;
-    book: number;
+    book: string;
     answers: Array<number>;
   };
 }
