@@ -43,7 +43,7 @@ export function Form() {
 
   return (
     <form
-      className="flex flex-col gap-x-8 gap-y-4"
+      className="flex flex-col lg:flex-row gap-x-8 gap-y-4"
       onSubmit={onSubmit}>
       <span className="grid place-items-center w-20 h-20 uppercase rounded-lg border-4 font-black text-xl text-center text-sky-300 border-zinc-800">
         Livro
